@@ -63,8 +63,8 @@ export default {
 </v-navigation-drawer>
 <v-container>
     <v-row justify="center">
-        <v-col v-for="prod of resault" cols="12" sm="6" md="4" lg="2" class="d-flex">
-            <v-card elevation="3" max-width="500">
+        <v-col v-for="prod of resault" cols="3">
+            <v-card elevation="3">
                 <v-img height="200" cover :src="getImage(prod.id)"></v-img>
 
                 <v-card-text>
